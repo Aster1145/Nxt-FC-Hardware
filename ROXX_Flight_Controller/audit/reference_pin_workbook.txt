@@ -1,0 +1,84 @@
+
+SHEET: PIN_Define
+STM32 H743 VIH (2MFlash 1M RAM) LBGA 封装安排不同					系统规定，不方便换PIN							
+					用户规定，方便换PIN，基本是外部中断和GPIO_Output							
+Core									原理图检查	STM32Cube 检查		
+IMU		BMI088			SPI1	MOSI	PA7		v	v		
+						MISO	PA6		v	v		
+						SCK	PA5		v	v		
+						Gyro_CS	PA3		v	v		
+						Accel_CS	PA2		v	v		
+						Gyro_Data_RDY	PA1	EXTI1	v	v		
+						Accel_Data_RDY	s	EXTI0	v	v		
+		BMI088			SPI4	MOSI	PE6		v	v		
+						MISO	PE5		v	v		
+						SCK	PE2		v	v		
+						Gyro_CS	PC2		v	v		
+						Accel_CS	PC13		v	v		
+						Gyro_Data_RDY	PE3	EXTI3	v	v		
+						Accel_Data_RDY	PE4	EXTI4	v	v		
+Baro		SPL06-01			I2C1	SDA	PB7		v	v		
+						SCL	PB6		v	v		
+						Baro_Data_RDY	PB5	EXTI5	v	v		
+Motor		PWM/DSHOT		CH1	TIM1	CH1	PE9		v	v		
+				CH2		CH2	PE11		v	v		
+				CH3		CH3	PE13		v	v		
+				CH4		CH4	PE14		v	v		
+				CH5	TIM2	CH3	PB10		v	v		
+				CH6		CH4	PB11		v	v		
+				CH7	TIM3	CH3	PB0		v	v		
+				CH8		CH4	PB1		v	v		
+LSE		32.768kHz			OSC32	OSC_IN	PC14		v	v		
+						OSC_OUT	PC15		v	v		
+HSE		16Mhz source			OSC	OSC_IN	PH0		v	v		
+LED		GPIO_OUTPUT			Blue		PB15		v	v		
+					Red		PD15		v	v		
+					Green		PD11		v	v		
+FRAM		W25Q128JVS			SPI2	SCK	PD3		v	v		
+						MISO	PB14		v	v		
+						MOSI	PC3		v	v		
+						CS	PD4		v	v		
+Connector												
+SPI					SPI3	MOSI	PB2		v	v		
+						MISO	PB4		v	v		
+						SCK	PB3		v	v		
+I2C					I2C4	SDA	PD13		v	v		
+						SCL	PD12		v	v		
+UART		Debug (GPS3)			UART8	RX	PE0		v	v		
+						TX	PE1		v	v		
+		Computer (TEL1)			UART4	RX	PB8		v	v		
+						TX	PB9		v	v		
+		RC_input(RC)				Sbus INV	PD14		v	v		
+					UART5	RX	PB12		v	v		
+						TX	PB13		v	v		
+		Debug (NC)			UART6	RX	PC7		v	No hardware connection support		
+						TX	PC6		v			
+		ESC_tele(TEL2)			UART7	RX	PE7		v	v		
+						TX	PE8	NC	v	v		
+					USART1	CK	PA8	NC	v			
+		GPS1				TX	PA9		v	v		
+						RX	PA10		v	v		
+					USART2	CK	PD7	NC	v			
+		GPS2				TX	PD5		v	v		
+						RX	PD6		v	v		
+					USART3	CK	PD10	NC	v			
+		TEL3				TX	PD8		v	v		
+						RX	PD9		v	v		
+USB_FS					USB	FS_DM	PA11		v	v		
+						FS_DP	PA12		v	v		
+SD					SDMMC1	D0	PC8		v	v		
+						D1	PC9		v	v		
+						D2	PC10		v	v		
+						D3	PC11		v	v		
+						CK	PC12		v	v		
+						CMD	PD2		v	v		
+Debug					SWD	SWDIO	PA13		v	v		
+						SWCLK	PA14		v	v		
+Battery					ADC1_INP4	BAT_V	PC4		v	v		
+					ADC2_INP8	BAT_I	PC5		v	v		
+USB Detection					Input		PD0		v	v		
+AUX_GPIO						AUX1	PC0		v	v		
+						AUX2	PC1		v	v		
+						AUX3	PA4		v	v		
+
+SHEET: Sheet1

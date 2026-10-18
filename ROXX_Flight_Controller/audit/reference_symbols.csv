@@ -1,0 +1,212 @@
+reference,value,footprint,datasheet_field_unverified,library_id
+#FLG01,PWR_FLAG,,~,power:PWR_FLAG
+#FLG02,PWR_FLAG,,~,power:PWR_FLAG
+#FLG03,PWR_FLAG,,~,power:PWR_FLAG
+#FLG04,PWR_FLAG,,~,power:PWR_FLAG
+#FLG05,PWR_FLAG,,~,power:PWR_FLAG
+#FLG06,PWR_FLAG,,~,power:PWR_FLAG
+#PWR01,GND,,,power:GND
+#PWR010,GND,,,power:GND
+#PWR011,GND,,,power:GND
+#PWR012,GND,,,power:GND
+#PWR013,GND,,,power:GND
+#PWR014,GND,,,power:GND
+#PWR015,GND,,,power:GND
+#PWR016,GND,,,power:GND
+#PWR017,GND,,,power:GND
+#PWR018,GND,,,power:GND
+#PWR019,GND,,,power:GND
+#PWR02,GND,,,power:GND
+#PWR020,GND,,,power:GND
+#PWR021,GND,,,power:GND
+#PWR022,GND,,,power:GND
+#PWR023,GND,,,power:GND
+#PWR024,GND,,,power:GND
+#PWR025,GND,,,power:GND
+#PWR026,GND,,,power:GND
+#PWR027,GND,,,power:GND
+#PWR028,GND,,,power:GND
+#PWR029,GND,,,power:GND
+#PWR03,GND,,,power:GND
+#PWR030,GND,,,power:GND
+#PWR031,GND,,,power:GND
+#PWR032,GND,,,power:GND
+#PWR034,GND,,,power:GND
+#PWR035,GND,,,power:GND
+#PWR036,GND,,,power:GND
+#PWR037,GND,,,power:GND
+#PWR038,GND,,,power:GND
+#PWR039,GND,,,power:GND
+#PWR04,GND,,,power:GND
+#PWR040,GND,,,power:GND
+#PWR041,GND,,,power:GND
+#PWR042,GND,,,power:GND
+#PWR043,GND,,,power:GND
+#PWR044,GND,,,power:GND
+#PWR045,GND,,,power:GND
+#PWR046,GND,,,power:GND
+#PWR047,GND,,,power:GND
+#PWR048,GND,,,power:GND
+#PWR049,GND,,,power:GND
+#PWR05,GND,,,power:GND
+#PWR050,GND,,,power:GND
+#PWR051,GND,,,power:GND
+#PWR052,GND,,,power:GND
+#PWR054,GND,,,power:GND
+#PWR055,GND,,,power:GND
+#PWR056,GND,,,power:GND
+#PWR06,GND,,,power:GND
+#PWR07,GND,,,power:GND
+#PWR08,GND,,,power:GND
+#PWR09,GND,,,power:GND
+BOOT1,TD-1183SN-1.5H(3x2.5),NxtPX4:3x2.5PushButton,~,Switch:SW_Push
+C1,22uF(0805 35V 20%),Capacitor_SMD:C_0805_2012Metric,~,Device:C_Small
+C10,100nF(0201 10V 10%),Capacitor_SMD:C_0201_0603Metric,~,Device:C_Small
+C11,100nF(0201 16V 10%),Capacitor_SMD:C_0201_0603Metric,~,Device:C_Small
+C12,22uF(0805 35V 20%),Capacitor_SMD:C_0805_2012Metric,~,Device:C_Small
+C13,22uF(0805 35V 20%),Capacitor_SMD:C_0805_2012Metric,~,Device:C_Small
+C14,1uF(0402 10V 10%),Capacitor_SMD:C_0402_1005Metric,~,Device:C_Small
+C15,1uF(0402 10V 10%),Capacitor_SMD:C_0402_1005Metric,~,Device:C_Small
+C16,100nF(0201 10V 10%),Capacitor_SMD:C_0201_0603Metric,~,Device:C_Small
+C17,100nF(0201 25V 10%),Capacitor_SMD:C_0201_0603Metric,~,Device:C_Small
+C18,100nF(0201 10V 10%),Capacitor_SMD:C_0201_0603Metric,~,Device:C_Small
+C19,100nF(0201 10V 10%),Capacitor_SMD:C_0201_0603Metric,~,Device:C_Small
+C2,10uF(0603 35V 20%),Capacitor_SMD:C_0603_1608Metric,~,Device:C_Small
+C20,100nF(0201 10V 10%),Capacitor_SMD:C_0201_0603Metric,~,Device:C_Small
+C21,100nF(0201 25V 10%),Capacitor_SMD:C_0201_0603Metric,~,Device:C_Small
+C22,100nF(0201 10.0V 10%),Capacitor_SMD:C_0201_0603Metric,~,Device:C_Small
+C23,22uF(0603 16V),Capacitor_SMD:C_0603_1608Metric,~,Device:C_Small
+C24,22uF(0603 16V),Capacitor_SMD:C_0603_1608Metric,~,Device:C_Small
+C25,10uF(0603 16V),Capacitor_SMD:C_0603_1608Metric,~,Device:C_Small
+C26,22uF(0603 16V),Capacitor_SMD:C_0603_1608Metric,~,Device:C_Small
+C27,2.2uF(0402 6.3V 10%),Capacitor_SMD:C_0402_1005Metric,~,Device:C_Small
+C28,2.2uF(0402 6.3V 10%),Capacitor_SMD:C_0402_1005Metric,~,Device:C_Small
+C29,4.7uF(0402 10V),Capacitor_SMD:C_0402_1005Metric,~,Device:C_Small
+C3,22uF(0805 35V 20%),Capacitor_SMD:C_0805_2012Metric,~,Device:C_Small
+C30,15pF(0201 10V),Capacitor_SMD:C_0201_0603Metric,~,Device:C_Small
+C31,100nF(0201 6.3V),Capacitor_SMD:C_0201_0603Metric,~,Device:C_Small
+C32,1uF(0201 6.3V),Capacitor_SMD:C_0201_0603Metric,~,Device:C_Small
+C33,100nF(0201 10V 10%),Capacitor_SMD:C_0201_0603Metric,~,Device:C_Small
+C34,100nF(0201 10V 10%),Capacitor_SMD:C_0201_0603Metric,~,Device:C_Small
+C35,12.0pF(0201 10V),Capacitor_SMD:C_0201_0603Metric,~,Device:C_Small
+C36,12.0pF(0201 10V),Capacitor_SMD:C_0201_0603Metric,~,Device:C_Small
+C37,100nF(0201 10V 10%),Capacitor_SMD:C_0201_0603Metric,~,Device:C_Small
+C38,100nF(0201 10V 10%),Capacitor_SMD:C_0201_0603Metric,~,Device:C_Small
+C39,100nF(0201 10V 10%),Capacitor_SMD:C_0201_0603Metric,~,Device:C_Small
+C4,1uF(0402 35V 10%),Capacitor_SMD:C_0402_1005Metric,~,Device:C_Small
+C40,100nF(0201 10V 10%),Capacitor_SMD:C_0201_0603Metric,~,Device:C_Small
+C41,100.0nF(0201 10V),Capacitor_SMD:C_0201_0603Metric,~,Device:C_Small
+C42,100.0nF(0201 10V),Capacitor_SMD:C_0201_0603Metric,~,Device:C_Small
+C43,100nF(0201 10V 10%),Capacitor_SMD:C_0201_0603Metric,~,Device:C_Small
+C44,100.0nF(0201 10V),Capacitor_SMD:C_0201_0603Metric,~,Device:C_Small
+C45,100.0nF(0201 10V),Capacitor_SMD:C_0201_0603Metric,~,Device:C_Small
+C5,1uF(0402 16V 10%),Capacitor_SMD:C_0402_1005Metric,~,Device:C_Small
+C6,1uF(0402 16V 10%),Capacitor_SMD:C_0402_1005Metric,~,Device:C_Small
+C7,100nF(0201 10V 10%),Capacitor_SMD:C_0201_0603Metric,~,Device:C_Small
+C8,1uF(0402 35V 10%),Capacitor_SMD:C_0402_1005Metric,~,Device:C_Small
+C9,1uF(0402 16V 10%),Capacitor_SMD:C_0402_1005Metric,~,Device:C_Small
+D1,PESD12VV1BL,NxtPX4:PESD12VV1BL_315,https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF,Diode:ESD9B5.0ST5G
+D10,LED_Blue(0201),LED_SMD:LED_0201_0603Metric,~,Device:LED_Small
+D11,LED_Blue(0201),LED_SMD:LED_0201_0603Metric,~,Device:LED_Small
+D12,LED_RED(0201),LED_SMD:LED_0201_0603Metric,~,Device:LED_Small
+D13,LED_BLUE(0201),LED_SMD:LED_0201_0603Metric,~,Device:LED_Small
+D14,LED_Green(0201),LED_SMD:LED_0201_0603Metric,~,Device:LED_Small
+D2,PESD5V0F1BL,NxtPX4:PESD5V0F1BL,https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF,Diode:ESD9B5.0ST5G
+D3, SMF30CA(30V),Diode_SMD:D_SOD-123F,~,Device:D_TVS
+D4,PESD5V0F1BL,NxtPX4:PESD5V0F1BL,https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF,Diode:ESD9B5.0ST5G
+D5,DSS34(3A 500mV),Diode_SMD:D_SOD-123F,~,Device:D_Schottky
+D6,BZX584C9V1,Diode_SMD:D_SOD-523,~,Device:D_Zener
+D7,DSS34(3A 500mV),Diode_SMD:D_SOD-123F,~,Device:D_Schottky
+D8,LED_Blue(0201),LED_SMD:LED_0201_0603Metric,~,Device:LED_Small
+D9,LED_Blue(0201),LED_SMD:LED_0201_0603Metric,~,Device:LED_Small
+FID1,Mark1,NxtPX4:Fidiucial,~,Mechanical:Fiducial
+FID2,Mark2,NxtPX4:Fidiucial,~,Mechanical:Fiducial
+FID3,Mark3,NxtPX4:Fidiucial,~,Mechanical:Fiducial
+H1,MountingHole_Pad,NxtPX4:M2MountingHole,~,Mechanical:MountingHole_Pad
+H2,MountingHole_Pad,NxtPX4:M2MountingHole,~,Mechanical:MountingHole_Pad
+H3,MountingHole_Pad,NxtPX4:M2MountingHole,~,Mechanical:MountingHole_Pad
+H4,MountingHole_Pad,NxtPX4:M2MountingHole,~,Mechanical:MountingHole_Pad
+J1,USB_C_Receptacle_USB2.0,NxtPX4:USB_C_Small,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,Connector:USB_C_Receptacle_USB2.0
+J10,Micro_SD_Card,NxtPX4:TF-SMD_TF-021B-H265,http://katalog.we-online.de/em/datasheet/693072010801.pdf,Connector:Micro_SD_Card
+J11,Debug,NxtPX4:1x06-1MP_P1.00mm_Horizontal,~,Connector_Generic_MountingPin:Conn_01x06_MountingPin
+J12,AuxGPIO,NxtPX4:1x06-1MP_P1.00mm_Horizontal,~,Connector_Generic_MountingPin:Conn_01x06_MountingPin
+J2,DJIO3,NxtPX4:1x06-1MP_P1.00mm_Horizontal,~,Connector_Generic_MountingPin:Conn_01x06_MountingPin
+J3,GPS,NxtPX4:1x06-1MP_P1.00mm_Horizontal,~,Connector_Generic_MountingPin:Conn_01x06_MountingPin
+J4,UART2,NxtPX4:01x04_MP_sh1.0_Hori,~,Connector_Generic_MountingPin:Conn_01x04_MountingPin
+J5,Upper computer connector,NxtPX4:01x04_MP_sh1.0_Hori,~,Connector_Generic_MountingPin:Conn_01x04_MountingPin
+J6,ESC,NxtPX4:01x08_MP_sh1.0_Hori,~,Connector_Generic_MountingPin:Conn_01x08_MountingPin
+J7,Upper computer connector,NxtPX4:01x04_MP_sh1.0_Hori,~,Connector_Generic_MountingPin:Conn_01x04_MountingPin
+J8,PWM_AUX,NxtPX4:01x05_MP_sh1.0_Hori,~,Connector_Generic_MountingPin:Conn_01x05_MountingPin
+J9,Conn_01x04,NxtPX4:Conn_4Pin,~,Connector_Generic:Conn_01x04
+L1,10uH(0420)(78438357100),NxtPX4:Inductor_0420,78438357100/IHLP2020BZER100M01,Device:L_Small
+L2,10uH(0420)(78438357100),NxtPX4:Inductor_0420,78438357100/IHLP2020BZER100M01,Device:L_Small
+Q1,AP40P05,Package_TO_SOT_SMD:SOT-23,~,Device:Q_PMOS_GSD
+R1,5.1kR(0201),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R10,20R(0201 25V),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R11,7.68kR(0201 25V),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R12,51kR(0201 25V),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R13,41.2kR(0201 25V),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R14,200.0kR(0201 50V),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R15,22.0kR(0201 50V),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R16,2.90k-4.02kR(0201 25V) / 3k for 12V,Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R17,41.2kR(0201 25V),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R18,10kR(0201),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R19,10kR(0201),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R2,5.1kR(0201),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R20,10kR(0201),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R21,20kR(0201 9V),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R23,10kR(0201),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R24,10.0kR(0201),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R25,10.0kR(0201),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R26,10.0kR(0201),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R27,10kR(0201),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R28,10kR(0201),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R29,10.0kR(0201),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R3,1MR(0402 50V),Resistor_SMD:R_0402_1005Metric,~,Device:R_Small
+R30,10.0kR(0201),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R31,10kR(0201),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R32,10kR(0201),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R33,10kR(0201),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R34,10kR(0201),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R35,10kR(0201),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R36,10.0kR(0201),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R37,10.0kR(0201),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R38,10kR(0201),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R4,100kR(0201 25V),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R5,1MR(0402 50V),Resistor_SMD:R_0402_1005Metric,~,Device:R_Small
+R6,100kR(0201 25V),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R7,100kR(0201 50V),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R8,20R(0201 25V),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+R9,51kR(0201 25V),Resistor_SMD:R_0201_0603Metric,~,Device:R_Small
+TP1,24V_TP,NxtPX4:MiniTP,~,Connector:TestPoint
+TP10,MP,NxtPX4:PWR_Circle,~,Connector:TestPoint
+TP11,MP,NxtPX4:PWR_Circle,~,Connector:TestPoint
+TP12,CAM_9V,NxtPX4:MiniTP,~,Connector:TestPoint
+TP13,MP,NxtPX4:PWR_Circle,~,Connector:TestPoint
+TP2,3.3V_Core_TP,NxtPX4:MiniTP,~,Connector:TestPoint
+TP3,MP,NxtPX4:PWR_Circle,~,Connector:TestPoint
+TP4,MP,NxtPX4:PWR_Circle,~,Connector:TestPoint
+TP5,3.3V_Peri_TP,NxtPX4:MiniTP,~,Connector:TestPoint
+TP6,MP,NxtPX4:PWR_Circle,~,Connector:TestPoint
+TP7,MP,NxtPX4:PWR_Circle,~,Connector:TestPoint
+TP8,MP,NxtPX4:PWR_Circle,~,Connector:TestPoint
+TP9,5V_System,NxtPX4:MiniTP,~,Connector:TestPoint
+U1,MP9943GQ-Z,NxtPX4:MP9943GQ-Z,https://www.monolithicpower.cn/cn/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP9943GQ-Z/document_id/865/,NxtPX4_Symbol:MP9943GQ-Z
+U10,Caution,NxtPX4:Caution,,NxtPX4_Symbol:Caution_Logo
+U11,STM32H743VIH6,NxtPX4:STM32H743VIHBGA100C80P10X10_800X800X110N,STM32H743VIH6,NxtPX4_Symbol:STM32H743VIH6
+U13,SPL06,Package_LGA:Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering,https://github.com/iNavFlight/inav/files/3364426/SPL06-001_datasheet.pdf,NxtPX4_Symbol:SPL06
+U14,BMI088,NxtPX4:BMI088,https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi088-ds001.pdf,NxtPX4_Symbol:BMI088
+U15,BMI088,NxtPX4:BMI088,https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi088-ds001.pdf,NxtPX4_Symbol:BMI088
+U16,W25Q128JVS,Package_SO:SOIC-8_5.23x5.23mm_P1.27mm,http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf,Memory_Flash:W25Q128JVS
+U17,UAV_LOGO,NxtPX4:Dual_logo,,NxtPX4_Symbol:Dual_Logo
+U19,SN74LVC1G86DCKR,DCK5,SN74LVC1G86DCKR,NxtPX4_Symbol:SN74LVC1G86DCKR
+U2,RT9013-33GB,NxtPX4:RT9013-33GB,,NxtPX4_Symbol:RT9013-33GB
+U3,RT9013-33GB,NxtPX4:RT9013-33GB,,NxtPX4_Symbol:RT9013-33GB
+U4,MP9943GQ-Z,NxtPX4:MP9943GQ-Z,https://www.monolithicpower.cn/cn/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP9943GQ-Z/document_id/865/,NxtPX4_Symbol:MP9943GQ-Z
+U5,UAV_LOGO,NxtPX4:Uav_logo,,NxtPX4_Symbol:UAV_LOGO
+U6,Direction_Logo,NxtPX4:Direction_Logo,,NxtPX4_Symbol:Direction_Logo
+U7,NxtLOGO,NxtPX4:NxtLOGO,,NxtPX4_Symbol:NxtLogo
+U8,Signature,NxtPX4:my_signature,,NxtPX4_Symbol:Signature
+U9,high_voltage,NxtPX4:high_voltage,,NxtPX4_Symbol:High_Voltage_Logo
+Y1,SG-210STF/ X1G004171002700,Oscillator:Oscillator_SMD_Abracon_ASDMB-4Pin_2.5x2.0mm,https://www5.epsondevice.com/en/products/crystal_oscillator/sg210stf.html,NxtPX4_Symbol:SG-210STF
+Y2,ABS07 (32.768kHZ),NxtPX4:LSE(2012),~,NxtPX4_Symbol:LSE-Oscillator
