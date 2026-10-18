@@ -1,0 +1,25 @@
+item,subsystem,manufacturer,proposed_part_or_family,quantity,population,status,notes
+B01,MCU,STMicroelectronics,STM32H743VIT6,1,mandatory,recommendation-awaiting-procurement,LQFP100 2MB; exact silicon revision and datasheet power/footprint audit pending
+B02,IMU,Bosch Sensortec,BMI088,2,mandatory,conditional-sourcing,Separate SPI1/SPI4; vendor ordering suffix and authorized stock quote required
+B03,Barometer,Bosch Sensortec,BMP388,1,mandatory,conditional-sourcing,Dedicated internal I2C1; lifecycle and manufacturer landing drawing audit pending
+B04,Core buck,Texas Instruments,TPS62132RGTR,1,mandatory,candidate-order-code-verification,Fixed3.3V candidate; do not substitute TPS62133 5V; inductor and loop design unresolved
+B05,Sensor LDO,Texas Instruments,LP5907MFX-3.3/NOPB,3,mandatory,candidate-order-code-verification,Separate IMU1 IMU2 baro rails; exact pinout and package drawing not audited
+B06,External FC converter,Texas Instruments,LM61460-Q1 family or qualified external module,1,system-external,candidate-no-final-MPN,Independent5.2V path; 2A objective under provisional loads only
+B07,External Pi converter,Texas Instruments,LM61460-Q1 family or qualified external module,1,system-external,candidate-no-final-MPN,5.1V5A capability with full thermal/transient proof; not on FC PCB
+B08,Pi USB-C PD source,TBD,TBD,1,system-external,blocked,Must support valid5V5A source negotiation and protected cable path
+B09,Pi cable,TBD,TBD,1,system-external,blocked,Qualified5A USB-C cable/e-marker and retention
+B10,MCU HSE,TBD,16MHz 3.3V active oscillator,1,mandatory,blocked-MPN,Frequency tolerance startup duty cycle current and footprint to qualify
+B11,LSE,TBD,32.768kHz crystal,1,optional-DNP,blocked-MPN,Load capacitance leakage and footprint unresolved
+B12,Logging socket,TBD,microSD socket exact MPN TBD,1,mandatory,blocked,Card peak current and mechanical retention to qualify
+B13,Logging medium,TBD,Qualified microSD card,1,system,blocked,Not a generic write-current assumption; latency and power-loss tests needed
+B14,FC protection/TPS source selection,TBD,eFuse OVP reverse-current source-selector parts,TBD,mandatory,blocked,Exact setpoint tolerances USB current limits and MPNs required
+B15,Peripheral power switches,TBD,current-limited branch switches,TBD,mandatory,blocked,GNSS receiver and radio loads unknown
+B16,Reset supervisor,TBD,Open-drain reset supervisor threshold TBD,1,mandatory,blocked,Coordinate BOR core rail tolerance reset delay and NRST probe
+B17,UART power-off protection,TBD,3.3V fail-safe buffer or qualified interface network,TBD,mandatory,blocked,Pi/FC power sequencing injection tests; not arbitrary series resistors alone
+B18,Buzzer output,TBD,MOSFET passive-sounder connector protection,1,mandatory-interface,blocked,Sounder voltage current inductance unknown
+B19,Signal connectors,JST,GH1.25mm family exact MPNs TBD,TBD,mandatory,blocked,Counts from interface spec; orientation and harness MPNs not frozen
+B20,CAN transceiver,TBD,3.3V-logic-compatible CAN transceiver exact MPN TBD,1,optional-DNP,blocked,Bus standard standby termination and protection audit needed
+B21,External battery V/I sensor,TBD,Current sensor and voltage scaling module,1,system-external,blocked,Choose actual aircraft current and battery envelope before shunt ratings
+B22,Passives/protection/mechanics,TBD,TBD,TBD,mandatory,not-enumerated,All decouplers VCAP pulls inductors TVS ESD resistors mounting hardware to be specified during schematic design
+B23,Companion,Raspberry Pi,Raspberry Pi 5,1,system-fixed,confirmed-product,Memory capacity cooler OS storage enclosure not selected
+B24,Camera,Luxonis,OAK-D Lite,1,system-fixed,confirmed-product,Specific hardware revision AF/FF mounting USB cable to confirm

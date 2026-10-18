@@ -1,0 +1,101 @@
+LQFP100_contact,MCU_signal,ROXX_net_or_role,vendor_function,status
+1,PE2,IMU2_SCK,SPI4_SCK,mandatory
+2,PE3,IMU2_GDRDY_EXTI3,GPIO,mandatory
+3,PE4,IMU2_ADRDY_EXTI4,GPIO,mandatory
+4,PE5,IMU2_MISO,SPI4_MISO,mandatory
+5,PE6,IMU2_MOSI,SPI4_MOSI,mandatory
+6,VBAT,tie-to-3V3-no-battery-revA,power/reset,mandatory-datasheet-audit
+7,PC13,IMU2_ACS_N,GPIO,mandatory
+8,PC14-OSC32_IN (OSC32_IN),LSE_IN,RCC_OSC32_IN,optional-DNP
+9,PC15-OSC32_OUT (OSC32_OUT),LSE_OUT,RCC_OSC32_OUT,optional-DNP
+10,VSS,VSS,power/reset,mandatory-datasheet-audit
+11,VDD,VDD,power/reset,mandatory-datasheet-audit
+12,PH0-OSC_IN (PH0),HSE_16MHZ_IN,RCC_OSC_IN,mandatory
+13,PH1-OSC_OUT (PH1),HSE_OUT_UNUSED_OSCILLATOR_MODE,GPIO,reserved-no-connect
+14,NRST,reset-supervisor-SWD-and-button,power/reset,mandatory-datasheet-audit
+15,PC0,IMU2_GCS_N,GPIO,mandatory-new-CS
+16,PC1,UNASSIGNED-no-external-drive,GPIO,reserved
+17,PC2_C,UNASSIGNED-no-external-drive,GPIO,reserved
+18,PC3_C,UNASSIGNED-no-external-drive,GPIO,reserved
+19,VSSA,VSSA,power/reset,mandatory-datasheet-audit
+20,VREF+,filtered-3V3-reference,power/reset,mandatory-datasheet-audit
+21,VDDA,filtered-3V3-analog,power/reset,mandatory-datasheet-audit
+22,PA0,IMU1_ADRDY_EXTI0,GPIO,mandatory
+23,PA1,IMU1_GDRDY_EXTI1,GPIO,mandatory
+24,PA2,IMU1_ACS_N,GPIO,mandatory
+25,PA3,IMU1_GCS_N,GPIO,mandatory
+26,VSS,VSS,power/reset,mandatory-datasheet-audit
+27,VDD,VDD,power/reset,mandatory-datasheet-audit
+28,PA4,UNASSIGNED-no-external-drive,GPIO,reserved
+29,PA5,IMU1_SCK,SPI1_SCK,mandatory
+30,PA6,IMU1_MISO,SPI1_MISO,mandatory
+31,PA7,IMU1_MOSI,SPI1_MOSI,mandatory
+32,PC4,BAT_V_SCALED,ADC1_INP4,mandatory
+33,PC5,BAT_I_SCALED,ADC1_INP8,mandatory
+34,PB0,UNASSIGNED-no-external-drive,GPIO,reserved
+35,PB1,UNASSIGNED-no-external-drive,GPIO,reserved
+36,PB2,UNASSIGNED-no-external-drive,GPIO,reserved
+37,PE7,ESC_TELEM_RX,UART7_RX,optional-reserve
+38,PE8,ESC_TELEM_TX,UART7_TX,optional-reserve
+39,PE9,MOTOR1,TIM1_CH1,mandatory
+40,PE10,CORE_PGOOD_INPUT,GPIO,mandatory-new
+41,PE11,MOTOR2,TIM1_CH2,mandatory
+42,PE12,UNASSIGNED-no-external-drive,GPIO,reserved
+43,PE13,MOTOR3,TIM1_CH3,mandatory
+44,PE14,MOTOR4,TIM1_CH4,mandatory
+45,PE15,UNASSIGNED-no-external-drive,GPIO,reserved
+46,PB10,UNASSIGNED-no-external-drive,GPIO,reserved
+47,PB11,UNASSIGNED-no-external-drive,GPIO,reserved
+48,VCAP,internal-regulator-capacitor-NOT-external-supply,power/reset,mandatory-datasheet-audit
+49,VSS,VSS,power/reset,mandatory-datasheet-audit
+50,VDD,VDD,power/reset,mandatory-datasheet-audit
+51,PB12,RC_RX,UART5_RX,mandatory
+52,PB13,RC_TX,UART5_TX,mandatory
+53,PB14,UNASSIGNED-no-external-drive,GPIO,reserved
+54,PB15,LED_BLUE_N,GPIO,mandatory
+55,PD8,TELEM2_TX,USART3_TX,optional-reserve
+56,PD9,TELEM2_RX,USART3_RX,optional-reserve
+57,PD10,IMU2_LDO_EN,GPIO,mandatory-new
+58,PD11,LED_GREEN_N,GPIO,mandatory
+59,PD12,EXT_I2C_SCL,I2C4_SCL,optional-reserve
+60,PD13,EXT_I2C_SDA,I2C4_SDA,optional-reserve
+61,PD14,BUZZER_PWM,TIM4_CH3,mandatory-new
+62,PD15,LED_RED_N,GPIO,mandatory
+63,PC6,CONSOLE_TX,USART6_TX,mandatory
+64,PC7,CONSOLE_RX,USART6_RX,mandatory
+65,PC8,SD_D0,SDMMC1_D0,mandatory
+66,PC9,SD_D1,SDMMC1_D1,mandatory
+67,PA8,GNSS_PPS_EXTI8,GPIO,optional-reserve-not-capture-timer
+68,PA9,GNSS_TX,USART1_TX,mandatory
+69,PA10,GNSS_RX,USART1_RX,mandatory
+70,PA11,USB_DM,USB_OTG_FS_DM,mandatory
+71,PA12,USB_DP,USB_OTG_FS_DP,mandatory
+72,PA13 (JTMS/SWDIO),SWDIO,DEBUG_JTMS-SWDIO,mandatory
+73,VCAP,internal-regulator-capacitor-NOT-external-supply,power/reset,mandatory-datasheet-audit
+74,VSS,VSS,power/reset,mandatory-datasheet-audit
+75,VDD,VDD,power/reset,mandatory-datasheet-audit
+76,PA14 (JTCK/SWCLK),SWCLK,DEBUG_JTCK-SWCLK,mandatory
+77,PA15 (JTDI),UNASSIGNED-no-external-drive,GPIO,reserved
+78,PC10,SD_D2,SDMMC1_D2,mandatory
+79,PC11,SD_D3,SDMMC1_D3,mandatory
+80,PC12,SD_CK,SDMMC1_CK,mandatory
+81,PD0,CAN1_RX,FDCAN1_RX,optional-reserve
+82,PD1,CAN1_TX,FDCAN1_TX,optional-reserve
+83,PD2,SD_CMD,SDMMC1_CMD,mandatory
+84,PD3,UNASSIGNED-no-external-drive,GPIO,reserved
+85,PD4,IMU1_LDO_EN,GPIO,mandatory-new
+86,PD5,TELEM1_TX,USART2_TX,mandatory
+87,PD6,TELEM1_RX,USART2_RX,mandatory
+88,PD7,USB_VBUS_SENSE_PROTECTED,GPIO,mandatory-relocated
+89,PB3 (JTDO/TRACESWO),SWO,DEBUG_JTDO-SWO,optional-testpoint
+90,PB4 (NJTRST),UNASSIGNED-no-external-drive,GPIO,reserved
+91,PB5,UNASSIGNED-no-external-drive,GPIO,reserved
+92,PB6,BARO_SCL,I2C1_SCL,mandatory
+93,PB7,BARO_SDA,I2C1_SDA,mandatory
+94,BOOT0,pulldown-and-recovery-pad,power/reset,mandatory-datasheet-audit
+95,PB8,COMPANION_RX,UART4_RX,mandatory
+96,PB9,COMPANION_TX,UART4_TX,mandatory
+97,PE0,UNASSIGNED-no-external-drive,GPIO,reserved
+98,PE1,UNASSIGNED-no-external-drive,GPIO,reserved
+99,VSS,VSS,power/reset,mandatory-datasheet-audit
+100,VDD,VDD,power/reset,mandatory-datasheet-audit

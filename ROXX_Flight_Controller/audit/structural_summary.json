@@ -1,0 +1,25 @@
+{
+  "scope": "Structural extraction only; not ERC/DRC",
+  "source_commit": "fad7860aa12501ed6f7dff6d967b4c9bf1c30f9f",
+  "source_files": 101,
+  "schematic_unique_references_including_power": 211,
+  "pcb_footprints": 137,
+  "schematic_only_non_power": [
+    "C25",
+    "FID1",
+    "FID2",
+    "FID3",
+    "J9",
+    "TP10",
+    "TP11",
+    "TP13",
+    "TP3",
+    "TP4",
+    "TP6",
+    "TP7",
+    "TP8",
+    "U17"
+  ],
+  "pcb_only": [],
+  "value_differences": []
+}
